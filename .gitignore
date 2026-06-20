@@ -1,0 +1,36 @@
+# Android build artifacts
+.buildozer/
+bin/*.apk
+*.apk
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+myenv/
+
+# PyInstaller
+dist/
+build/
+*.spec.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model training artifacts
+runs/
+data/MNIST/
+*.pth
+
+# Large model files (keep only .npz, skip .onnx to stay under 100MB)
+model/*.onnx
+
+# Misc
+*.log
+*.tar.gz

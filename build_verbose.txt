@@ -1,0 +1,75 @@
+# `android.archs` not detected, instead `android.arch` is present.
+# `android.arch` will be removed and ignored in future.
+# If you're seeing this error, please migrate to `android.archs`.
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Install platform
+# Command failed: ('git', 'clone', '-b', 'master', '--single-branch', 'https://github.com/kivy/python-for-android.git', 'python-for-android')
+# Error code: 128
+# ENVIRONMENT:
+#     SHELL = '/bin/bash'
+#     QT_ACCESSIBILITY = '1'
+#     COLORTERM = 'truecolor'
+#     XDG_CONFIG_DIRS = '/etc/xdg/xdg-ubuntu:/etc/xdg'
+#     XDG_MENU_PREFIX = 'gnome-'
+#     GNOME_DESKTOP_SESSION_ID = 'this-is-deprecated'
+#     QT_IM_MODULES = 'wayland;ibus'
+#     PTYXIS_PROFILE = '11b4b2bb016d255e20db7e2369fa0824'
+#     SSH_AUTH_SOCK = '/run/user/1000/gcr/ssh'
+#     MEMORY_PRESSURE_WRITE = 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+#     XMODIFIERS = '@im=ibus'
+#     DESKTOP_SESSION = 'ubuntu'
+#     GTK_MODULES = 'gail:atk-bridge'
+#     PWD = '/mnt/hgfs/win_code/pytorch/digitnote'
+#     XDG_SESSION_DESKTOP = 'ubuntu'
+#     LOGNAME = 'otion'
+#     XDG_SESSION_TYPE = 'wayland'
+#     GPG_AGENT_INFO = '/run/user/1000/gnupg/S.gpg-agent:0:1'
+#     SYSTEMD_EXEC_PID = '2368'
+#     XAUTHORITY = '/run/user/1000/.mutter-Xwaylandauth.VX01Q3'
+#     GJS_DEBUG_TOPICS = 'JS ERROR;JS LOG'
+#     HOME = '/home/otion'
+#     USERNAME = 'otion'
+#     LANG = 'zh_CN.UTF-8'
+#     LS_COLORS = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:'
+#     XDG_CURRENT_DESKTOP = 'ubuntu:GNOME'
+#     VIRTUAL_ENV = '/home/otion/桌面/myenv'
+#     MEMORY_PRESSURE_WATCH = '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure'
+#     VTE_VERSION = '8400'
+#     WAYLAND_DISPLAY = 'wayland-0'
+#     INVOCATION_ID = '24a9b9595e1a4f6b99d9773bc1803204'
+#     MANAGERPID = '1859'
+#     GJS_DEBUG_OUTPUT = 'stderr'
+#     GNOME_SETUP_DISPLAY = 'unix:/tmp/.X11-unix/X1'
+#     LESSCLOSE = '/usr/bin/lesspipe %s %s'
+#     XDG_SESSION_CLASS = 'user'
+#     TERM = 'xterm-256color'
+#     LESSOPEN = '| /usr/bin/lesspipe %s'
+#     USER = 'otion'
+#     DISPLAY = ':0'
+#     SHLVL = '1'
+#     QT_IM_MODULE = 'ibus'
+#     VIRTUAL_ENV_PROMPT = 'myenv'
+#     MANAGERPIDFDID = '1037'
+#     XDG_RUNTIME_DIR = '/run/user/1000'
+#     PS1 = ('(myenv) \\[\\e]0;\\u@\\h: '
+ '\\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ ')
+#     DEBUGINFOD_URLS = 'https://debuginfod.ubuntu.com '
+#     IM_CONFIG_ENTRY = 'profile'
+#     JOURNAL_STREAM = '10:39032'
+#     XDG_DATA_DIRS = '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+#     PATH = '/home/otion/.buildozer/android/platform/apache-ant-1.9.4/bin:/home/otion/桌面/myenv/bin:/home/otion/.local/bin:/home/otion/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'
+#     GDMSESSION = 'ubuntu'
+#     XDG_SESSION_EXTRA_DEVICE_ACCESS = 'render:accel'
+#     DBUS_SESSION_BUS_ADDRESS = 'unix:path=/run/user/1000/bus'
+#     PTYXIS_VERSION = '50.1'
+#     FLATPAK_TTY_PROGRESS = '1'
+#     OLDPWD = '/mnt/hgfs/win_code/pytorch'
+#     _ = '/home/otion/桌面/myenv/bin/buildozer'
+# 
+# Buildozer failed to execute the last command
+# If the error is not obvious, please raise the log_level to 2
+# and retry the latest command.
+# In case of a bug report, please add a full log with log_level = 2

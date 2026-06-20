@@ -1,0 +1,33 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup build environment
+        run: |
+          sudo apt update
+          sudo apt install -y python3-pip openjdk-17-jdk git autoconf libtool zip unzip
+          pip install buildozer cython
+
+      - name: Accept Android SDK license
+        run: |
+          mkdir -p ~/.android/sdk/licenses
+          echo "d56f5187479451eabf01fb78af6dfcb131a6481e" > ~/.android/sdk/licenses/android-sdk-license
+
+      - name: Build APK
+        run: |
+          buildozer android debug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: digitnote-apk
+          path: bin/*.apk
