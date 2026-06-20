@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
 
@@ -20,7 +20,8 @@ jobs:
       - name: Build APK
         run: |
           # 清除可能冲突的 Android 环境变量，让 Buildozer 自己管理
-          unset ANDROID_HOME ANDROID_SDK_ROOT ANDROID_SDK_HOME ANDROID_NDK_HOME
+          unset ANDROID_HOME ANDROID_SDK_ROOT ANDROID_SDK_HOME
+          unset ANDROID_NDK ANDROID_NDK_HOME ANDROID_NDK_ROOT
           buildozer android debug
 
       - name: Upload APK
