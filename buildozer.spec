@@ -218,10 +218,10 @@ fullscreen = 0
 # android.private_storage = True
 
 # (str) NDK directory (if empty, auto-download)
-android.ndk_path = ~/android-ndk-r25b
+# android.ndk_path = ~/android-ndk-r25b   # VM only: use --android-ndk flag
 
 # (str) SDK directory (if empty, auto-download)
-android.sdk_path = ~/android-sdk
+# android.sdk_path = ~/android-sdk   # VM only: use --android-sdk flag
 
 # (str) ANT directory (if empty, auto-download)
 # android.ant_path =
@@ -236,6 +236,7 @@ android.sdk_path = ~/android-sdk
 # android.gradle_version = 8.7
 
 # (bool) Enable AndroidX
+android.accept_sdk_license = True
 android.enable_androidx = True
 
 # (bool) Enable Java 8
