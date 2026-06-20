@@ -18,6 +18,8 @@ jobs:
           pip install buildozer cython
 
       - name: Build APK
+        env:
+          JAVA_HOME: /usr/lib/jvm/temurin-17-jdk-amd64
         run: |
           # 清除可能冲突的 Android 环境变量，让 Buildozer 自己管理
           unset ANDROID_HOME ANDROID_SDK_ROOT ANDROID_SDK_HOME
